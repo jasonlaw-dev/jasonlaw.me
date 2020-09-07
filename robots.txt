@@ -1,2 +1,5 @@
 user-agent: *
 disallow: /files/
+
+user-agent: Googlebot-Image
+disallow: /
