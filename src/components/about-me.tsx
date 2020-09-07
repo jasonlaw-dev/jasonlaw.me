@@ -8,10 +8,10 @@ import { HistoryCard } from './history-card';
 const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '100vh',
+    paddingBottom: '50px',
     '& .MuiCard-root': {
       marginBottom: '15px',
     },
-    paddingBottom: '100px',
   },
   header: {
     paddingTop: '50px',
