@@ -148,7 +148,7 @@ export const AboutMe = () => {
         </Typography>
 
         <Typography variant="body1">
-          I have three years of full-stack development experience using Java, C++, TypeScript and React in a hedge fund called Kadensa Capital.
+          I have three years of full-stack development experience using Java, C++, TypeScript and React in a hedge fund in Hong Kong.
           <br />
           <br />
           My proudest project is called Research Management System — a one-stop hybrid web / desktop app for research analysts, traders and portfolio managers to query firm-specific data.
