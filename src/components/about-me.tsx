@@ -124,8 +124,8 @@ export const AboutMe = () => {
           <Typography variant="h2">
             About Me
           </Typography>
-          <Typography variant="h6" color="textSecondary">
-            <Link color="textSecondary" href="files/Chi_Kin_Jason_Law_resume.pdf">
+          <Typography variant="h6">
+            <Link href="files/Chi_Kin_Jason_Law_resume.pdf">
               Resume (PDF)
             </Link>
           </Typography>
@@ -135,7 +135,7 @@ export const AboutMe = () => {
           My education
         </Typography>
         <Typography variant="body1">
-          I am now a student pursuing a master&apos;s degree in mobile and IoT engineering in Carnegie Mellon University.
+          I am now a student pursuing a master&apos;s degree in Information Networking in Carnegie Mellon University.
           <br />
           <br />
           I came from a finance background, with a bachelor&apos;s degree of economics and finance and a minor in computer science from the University of Hong Kong.
@@ -148,7 +148,13 @@ export const AboutMe = () => {
         </Typography>
 
         <Typography variant="body1">
-          I have three years of full-stack development experience using Java, C++, TypeScript and React in a hedge fund in Hong Kong.
+          I worked as a software engineer intern in Okta this summer. It was super fun to work in the leading identity provider!
+          <br />
+          <br />
+          My internship project involves developing a password hashing algorithm framework that supports multiple hashing algorithms using a common hash string format, and implementing migration strategies for customers to switch between algorithms.
+          <br />
+          <br />
+          Prior to that, I have three years of full-stack development experience using Java, C++, TypeScript and React in a hedge fund in Hong Kong.
           <br />
           <br />
           My proudest project is called Research Management System — a one-stop hybrid web / desktop app for research analysts, traders and portfolio managers to query firm-specific data.
@@ -201,10 +207,10 @@ export const AboutMe = () => {
       </Container>
       <Container maxWidth="md">
         <Typography className={classes.sectionHeader} variant="h4">
-          Want to know more?
+          Want to chat with me?
         </Typography>
         <Typography variant="body1">
-          Get in touch by <Link href="mailto:jasonlaw.dev@gmail.com">email</Link>, <Link href="https://linkedin.com/in/jasonlaw-dev" target="_blank" rel="noopener">LinkedIn</Link> or <Link href="https://github.com/jasonlaw-dev" target="_blank" rel="noopener">GitHub</Link>.
+          Let&apos;s get in touch by <Link href="mailto:jasonlaw.dev@gmail.com">email</Link>, <Link href="https://linkedin.com/in/jasonlaw-dev" target="_blank" rel="noopener">LinkedIn</Link> or <Link href="https://github.com/jasonlaw-dev" target="_blank" rel="noopener">GitHub</Link>.
         </Typography>
       </Container>
     </div>
